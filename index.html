@@ -3,7 +3,7 @@
 <head>
   <meta name="UXSHOP" content="UX, usability testing">
 
-  <title> Business Name:  </title>
+  <title> UX Insights Shop </title>
   <!--custom css -->
   <link rel='stylesheet' type='text/css' href= '/main.css'/>
 </head>
@@ -11,120 +11,69 @@
   <!-- Navigation Bar************-->
   <div class='header'>
     <div id='logo'>
-      <span> UX Insights SHOP </span>
+      <span> UX Insights Shop </span>
     </div>
-    <div id='navBar'>
-      <a href="#">Home</a>
-      <a href="#aboutUs">About</a>
-      <a href="#methods">Methods</a>
-      <a href="#contact">Contact</a>
-    </div>
-  </div>
 
+  </div>
   <!--Firstpage*************-->
-  <div class="page" id="home">
-    <h2> "Bringing UX Research to Smaller Businesses!"</h2>
-  </div>
-  <!--youtube video-->
-  <div class="page" id="video">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/rAIB_NYpTng" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
-  <!--About Us Page***************************-->
-  <div class="page" id="aboutUs">
-    <div class = boxContainer>
-      <h3>Why Us?</h3>
-      <p>We want to help your business! UX research is usually only used for large corporations. We're
-        on a mission to bring these research methods to the
-        most important part to our economy, the small and medium business. </p>
+  <div class='page' id='homepage'>
+        <h2> "Bringing UX Research to small and medium businesses"</h2>
       </div>
-      <div class="boxContainer">
-        <h3>What Do We Do?  </h3>
-        <p> We come to your business, and use user research
-          methods to help you gather data on your users and consumers. We then help you to find data on who
-          your target audience is, and how to make their experience better with your
-          business, product, service, or website</p>
-        </div>
-        <div class="boxContainer">
-          <h3> Whats The Purpose?</h3>
-          <p>Our goal is to conduct research to help you understand who
-            your customer or users are. We created this company becasue large
-            companies found this out, but we want to help the small and medium
-            companies to use these same methods so you can grow as well.
-          </p>
-        </div>
+
+
+
+  <!--Methods Page stuff(e.g. 5 Step Method)-->
+  <div class='page' id='methodsPage'>
+    <div id='methodsContent'>
+      <div id='methodPageLeftContent'>
+        <h2>Our 5 Step Method </h2>
+        <p>1) First we create online surveys for your business.</p>
+        <p>2) Second, you as the business owner give some sort of incentive to entice the customer to fill out the survey. A link for the surveys website would be given with the receipt.</p>
+        <p>3) Third, we analyze and conduct a statistical analysis to gain insights from the data </p>
+        <p>4) Forth, we create easy to read report that display the insights we found to see if changes created more satisfied and happy customers. </p>
+        <p>5) Then, we continue to keep track of your AB test, Usablity test and other UX test periodically to keep you informed with objective data and ways to increase customer satisfaction, reviews and customer acquisition.</p>
       </div>
-      <!--Our Methods***************************-->
-      <div class="page" id="methods">
-        <h3> Our Method </h3>
-        <div class="boxContainer">
-          <div class="methods">
-            <ol>
-              <li> Qualitative Research:</li>
-              <ul>-Review business/product/service/website online </ul>
-              <ul>-Review business/product in person</ul>
-              <ul>-Collect subjective data via questionnaire and other methods</ul>
-              <ul>-Speak with owner, fill out their issues in a questionnaire</ul>
-              <li>Create a Persona and User Story:</li>
-              <ul>-Persona: an example of the target audience/main user. Ex) age, gender, occupation</ul>
-              <ul>-User Story:  a user story tells the process the user goes through when they go into a business, uses a product, or service.</ul>
-              <li>Create a research Study:</li>
-              <ul>When then create questions and hypotheses(theories) of ways to fix the issues. </ul>
-              <li>Quantifiable Data: Collect objective data that we can use statistics to proove</li>
-              <ul>Ex) interviews, Surveys, AB testing, Usability Analysis</ul>
-              <li>Repeat processes: </li>
-              <ul>Repeat the data to ensure it is consistent, valid and accurate </ul>
-              <li>Analyze the data</li>
-              <ul>Use statistics to analyze the data to find trends, information and ways to help the business do better. </ul>
-              <li>Create a Report:</li>
-              <ul>We then create a report so business owners can determine the best methods to fix issues. </ul>
+    </div>
+  </div>
+  <!--short video-->
+  <center>
+  <div id='video'>
 
-              <ol>
-              </div>
-            </div>
-          </div>
-          <!--Contact Us***************************-->
-          <div class="page"id="contact">
-            <h3> Coming Soon-Let's Chat! :)</h2>
-              <p> Chat feature isnt set up because we are a really early stage startup. Please email us with questions for now!:)<p>
-              <div class="contactContainer">
-                <div class="boxContainer">
-                  <form action="someAction">
+  <iframe width="55%" height="60%" src="https://www.youtube.com/embed/rAIB_NYpTng" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </center>
+  <!--Pricing Page-->
+  <div class='page' id='pricing'>
+    <h3>Pricing</h3>
+    <div id="base">
+      <h3>Base Plan ($250/month)</h3>
+      <p>-Create Surveys</p>
+      <p>-Analyze Results</p>
+      <p>Once a Month Reports</p>
+    </div>
 
-                    <label for="name">Your Name:</label>
-                    <input type="text" id="name" placeholder="Your Name">
+    <div id='silver'>
+      <h3>Silver Plan($500/month)</h3>
+      <p>-Create Surveys</p>
+      <p>-Analyze Results</p>
+      <p>-Twice a Month Reports</p>
+    </div>
+    <div id='platinum'>
+      <h3>Platinum Plan ($1000)</h3>
+      <p>-Create Surveys</p>
+      <p>-Analyze Results</p>
+      <p>-A Weekly Report</p>
+    </div>
+  </div>
 
-                    <label for="bname">Name Of Business:</label>
-                    <input type="text" id="bname" placeholder="Name Of Business">
+  <!--Attributes-->
+  <div class='page' id="attibutes">
+    <h2>Let's Chat!</h2>
+    <h3> UX Insights Shop</h3>
+    <p> Feel free to reach out and ask us questions!</p>
+    <p> uxinsightsshop@outlook.com</p>
+  </div>
 
-                    <label for="email">Email:</label>
-                    <input type="text" id="email" placeholder="Email">
-
-                    <label for="number">Phone Number:</label>
-                    <input type="text" id="number" placeholder="Phone Number:">
-
-                    <label for"bio">Please give a brief description of your business,
-                      and what UX research you need:</label>
-                      <textarea id="subject" name="subject" placeholder="Please keep it under 300 characters" style="height: 100px"></textarea>
-
-                      <input type="submit" value="submit">
-
-
-                    </form>
-                  </div>
-                </div>
-              </div>
-
-              <!--Call to Action Page*****************-->
-              <div id="callToAction">
-                <div id = "endLogo">
-                  <h2>UX Company</h2>
-                  <p> Chat feature isnt set up because we are a really early stage startup. Please email us with questions for now!:)<p>
-                  <p>uxinsightsshop@outlook.com</p>
-                </div>
-                <div id="legals">
-                  @2019 RIGHTS WILL EVENTUALLY BE RESERVED
-                </div>
-              </div>
-            </body>
+</body>
             <html>
 
