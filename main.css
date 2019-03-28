@@ -81,6 +81,12 @@ background-image: url('https://www.traveldatadaily.com/wp-content/uploads/2016/1
   background-color: black;
  float: center;
 }
+/*Scale-----------------*/
+#scale img{
+  width: 75%;
+  height: 300px;
+}
+
 
 /*pricing page*/
 #pricing{
