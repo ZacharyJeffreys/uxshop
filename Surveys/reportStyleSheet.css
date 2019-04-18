@@ -1,0 +1,52 @@
+html{
+  background-color: darkgrey;
+}
+html img{
+  border-radius: 45px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+html h2{
+  font-size: 30px;
+}
+html h3{
+  color: rgba(100,200,20,1);
+  font-size: 25px;
+}
+html li{
+color: rgba(100,200,20,1);
+}
+/*---------------------------Navigation Bar-----------------------------*/
+.header{
+  height: 50px;
+  margin-top: -5px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-shadow: 20px 1px 5px rgba(255,255,255,0.4);
+  /*position: fixed;*/
+}
+.header #logo{
+  text-align: center;
+  font-family:serif;
+  padding-top: 5px;
+  color: rgba(0,255,0,1);
+  font-size: 30px;
+}
+/*----------------------------Containers-----------------------------*/
+.container{
+  margin: 0 auto;
+  background-color: lightgrey;
+  width: 70%;
+  padding: 15px;
+}
+/*-----------------------Business Name------------------------------*/
+#businessName{
+text-align: center;
+}
+
+/*-------------------------Demographic Info------------------------*/
+
+
+/*------------------------Scores-----------------------------------*/

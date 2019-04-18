@@ -1,0 +1,58 @@
+body{
+  background-color: darkgrey;
+}
+/*---------------------------Navigation Bar-----------------------------*/
+.header{
+  height: 50px;
+  margin-top: -5px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-shadow: 20px 1px 5px rgba(255,255,255,0.4);
+  /*position: fixed;*/
+}
+.header #logo{
+  text-align: center;
+  font-family:serif;
+  padding-top: 5px;
+  color: rgba(0,255,0,1);
+  font-size: 30px;
+}
+/*----------------------------------Set Continers-----------------------*/
+.container{
+  margin: 0 auto;
+  background-color: lightgrey;
+  width: 70%;
+  padding: 15px;
+}
+.container h3{
+font-size: 30px;
+}
+
+.container li{
+  font-size: 22px;
+}
+.container button{
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.container button:hover{
+  background-color: lightgreen;
+}
+/*------------------------------Business Name Section---------------------*/
+#businessName{
+  text-align: center;
+  font-size: 20px;
+}
+/*-----------------------------Demographic Questions----------------------*/
+
+
+/*-----------------------Customer Experience Questions--------------------*/
+
+/*------------------------Submit Button-----------------------------------*/
+#submitButton{
+  background-color: rgba(0,255,0,1);
+  height: 40px;
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+}
